@@ -15,24 +15,23 @@ from inspect import stack
   },
 ]
 def create_food_truck_order():
- print 
- {(f"fruit", "vegetable", "drink")}
+ print{(f"fruit", "vegetable", "drink")}
 stack
-def item_name: fruit {([ "apple", "banana", "pear"," "orange" ])}
-vegetable = {[ "broccoli", "carrot", "cucumber" , "rutabaga" ]},
-drink = {["water", "soda", "juice", "milk"]},
+def item_name: fruit { "apple", "banana", "pear"," "orange" }
+vegetable = { "broccoli", "carrot", "cucumber" , "rutabaga" },
+drink = { "water", "soda", "juice", "milk" },
         
 def price_set
-price_set = {["apple": 1, "banana": 1, "pear": 1, "oranges":1,
+price_set += { "apple": 1, "banana": 1, "pear": 1, "oranges":1,
   "broccoli": 1, "carrot": 1, "cucumber": 1, "rutabaga": 1,
-  "water": 1, "soda": 1, "juice": 1, "milk": 1]},
+  "water": 1, "soda": 1, "juice": 1, "milk": 1 },
   
-stock = {"apple": 10, "banana": 20, "pear":  15, "orange": 10,
-  "brocoloi": 15, "carrot": 20, "cucumber": 25, "rutabaga": 10,
+stock = { "apple": 10, "banana": 20, "pear":  15, "orange": 10,
+  "broccoli": 15, "carrot": 20, "cucumber": 25, "rutabaga": 10,
   "water": 20, "soda": 5, "juice": 10, "milk": 10 },
 def menu_selection():
-  print("Welcome to The Urban Snack Bar")
-  print("Please choose your order from the menu below:")
+  print(f"Welcome to The Urban Snack Bar")
+  print(f"Please choose your order from the menu below:")
 for i, fruit in enumerate(fruit, start=1):
     print(f"{i}.{fruit} - ${price, [fruit]}")
 for a, vegetable in enumerate(vegetable, start=5):
